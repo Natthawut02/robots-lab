@@ -1,0 +1,89 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.047581303271229204 0.9961776698910463 -0.07325346127970483 1.1555505058168634
+  position -0.6229867686831589 0.17132125587446417 1.8924210987069694
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+E-puck {
+  hidden position_0_0 4.875265382745214
+  hidden position_0_1 5.263660440799534
+  hidden linearVelocity_0 -1.2916849019886292e-11 2.3124491007943596e-13 5.4001247917767615e-15
+  hidden angularVelocity_0 -1.560219229671847e-11 -8.611037883309901e-10 -5.0819267935140976e-15
+  hidden translation_1 0 0.025999999999999877 0.02
+  hidden rotation_1 0 1 0 4.875265382745214
+  hidden linearVelocity_1 -1.7219025877639295e-11 4.654132400228686e-13 -1.243449631615871e-15
+  hidden angularVelocity_1 -1.5353082062805322e-11 -8.611075484822056e-10 -5.095724525644984e-15
+  hidden translation_2 0 -0.025999999999999964 0.02
+  hidden rotation_2 0 1 0 5.263660440799534
+  hidden linearVelocity_2 -1.7224927190484335e-11 1.5303120967573354e-13 1.7763695134835382e-16
+  hidden angularVelocity_2 -1.548904159235412e-11 -8.611063297709195e-10 -5.024811105014862e-15
+  translation -0.22527300000067058 -0.02228419996496504 -6.396199578706865e-05
+  rotation 4.592332499484577e-08 2.1955348574164187e-08 -0.9999999999999988 0.018327299128112595
+  controller "robot_test"
+}
+Wall {
+  translation -0.49 0 0
+  size 0.02 1 0.1
+}
+Wall {
+  translation -0.0100001 -0.36 0
+  rotation 0 0 1 1.5708
+  name "wall(3)"
+  size 0.02 0.75 0.1
+}
+Wall {
+  translation -6.74634e-14 0.36 0
+  rotation 0 0 1 1.5708
+  name "wall(2)"
+  size 0.02 0.7 0.1
+}
+Wall {
+  translation -0.22 -0.129999 0
+  rotation 0 0 1 1.5708
+  name "wall(8)"
+  size 0.02 0.26 0.1
+}
+Wall {
+  translation -0.1 1.05307e-06 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "wall(1)"
+  size 0.02 0.26 0.1
+}
+Wall {
+  translation -0.36 -0.24 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "wall(6)"
+  size 0.02 0.26 0.1
+}
+Wall {
+  translation -0.36 0.24 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "wall(7)"
+  size 0.02 0.26 0.1
+}
+Wall {
+  translation 0.35 -0.0899951 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "wall(5)"
+  size 0.02 0.55 0.1
+}
+Wall {
+  translation 0.1 0.100003 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "wall(4)"
+  size 0.02 0.5 0.1
+}
